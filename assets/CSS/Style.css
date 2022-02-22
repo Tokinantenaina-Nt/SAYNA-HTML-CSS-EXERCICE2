@@ -1,6 +1,4 @@
 html {
-    /* font-family: Open Sans, Arial, sans-serif; */
-    /* padding: 0 15%; */
     margin: 0;
 }
 
@@ -18,13 +16,17 @@ ul li {
     background-color: ;
 }
 
+ul {
+    padding: 0;
+}
+
 a {
     padding: 1%;
 }
 
 header>nav>div {
-    width: 10%;
-    float: right;
+    text-align: right;
+    width: 100%;
     margin-top: -2em;
     color: #fff;
 }
@@ -33,7 +35,7 @@ header nav {
     background: center no-repeat;
     background-size: 10em;
     background-color: #281b38;
-    padding: 3% 15%;
+    padding: 4% 10%;
     text-decoration: solid;
 }
 
@@ -60,7 +62,7 @@ header>nav>ul>li>a {
     background: center bottom no-repeat;
     color: #ffffff;
     background-color: #281b38;
-    padding: 0 15% 40%;
+    padding: 0 5% 40%;
     margin: 0;
     text-align: center;
 }
@@ -131,22 +133,29 @@ p {
     display: inline-flex;
     flex-direction: row;
     margin: 2% 0% 0;
-    padding: 0 25% 5%;
+    padding: 0 20% 5%;
 }
 
 .newApp>div.colonne>div {
-    padding: 10% 0;
+    padding: 10% 1%;
 }
 
-figure {
+
+/* BANDE AU MILIEU  */
+
+#bandeMilieu {
+    text-align: center;
+    background-color: #281b38;
+    color: #ffffff;
+    padding: 0 40% 2em 40%;
+}
+
+#bandeMilieu>img {
+    padding: 1em;
+}
+
+#deuxiemeColonne {
     width: 100%;
-    margin: 0;
-    padding: 0 4% 4%;
-}
-
-figcaption {
-    text-align: left;
-    padding: 4%;
 }
 
 
@@ -156,14 +165,25 @@ figcaption {
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
-    padding: 0% 26% 4%;
-    width: 48%;
+    padding: 0% 20% 4%;
+    width: 30%;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+    padding: 0 10% 4%;
+}
+
+figcaption {
+    text-align: left;
+    padding: 4%;
 }
 
 .theBest {
     font-size: x-large;
     text-align: left;
-    padding: 5.5% 24.5%;
+    padding: 5.5% 19.5%;
 }
 
 .litmus {
@@ -172,6 +192,12 @@ figcaption {
     flex-direction: row;
     padding: 5% 27%;
     text-align: left;
+}
+
+#imageResponsive {
+    width: 200%;
+    margin: -4em;
+    background: no-repeat center;
 }
 
 .respons {
@@ -186,43 +212,19 @@ figcaption {
     padding: 0 1%;
 }
 
-
-/* BANDE AU MILIEU  */
-
-#bandeMilieu {
-    text-align: center;
-    background-color: #281b38;
-    color: #ffffff;
-    padding: 0 40% 2em 40%;
-}
-
-#bandeMilieu>img {
-    padding: 2em;
-}
-
-#deuxiemeColonne {
-    width: 100%;
-}
-
-#imageResponsive {
-    width: 200%;
-    margin: -4em;
-    background: no-repeat center;
-}
-
 .contact {
     display: inline-flex;
     flex-direction: row;
     background-color: #f7f7f7;
-    padding: 3% 20%;
-    margin: 0%;
+    padding: 2.5% 5%;
 }
 
 .contact>div {
     padding: 0 3%;
 }
 
-.colonne {
+.colonne,
+.colonnePlay {
     background: no-repeat center;
     align-items: center;
 }
@@ -238,9 +240,9 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 1% 23%;
+    padding: 1% 7%;
     text-align: center;
-    width: 54%;
+    width: 84%;
 }
 
 .copyright {
@@ -249,4 +251,88 @@ footer {
 
 .icon {
     width: 100%;
+}
+
+@media screen and (max-width: 630px) {
+    html {
+        /* width: 100%; */
+    }
+    ul li,
+    #getItNow {
+        display: none;
+    }
+    .newApp {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    #play {
+        margin: -30% 0 0 0;
+        padding: 0px 0 0 40%;
+    }
+    .colonne {
+        text-align: center !important;
+    }
+    .colonnePlay {
+        padding: 0 0 25% 0;
+    }
+    .newApp>div.colonne>div {
+        padding: 3% 0%;
+    }
+    .screenshoot {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .litmus {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5% 27%;
+        text-align: left;
+    }
+    .respons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 4% 25%;
+        text-align: center !important;
+    }
+    .grdTitre {
+        text-align: center !important;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        background-color: #f7f7f7;
+        padding: 2.5% 5%;
+        text-align: left;
+    }
+    .logoContact img {
+        padding: 0 0% 0 22% !important;
+        margin: 0;
+    }
+    .logoContact p {
+        padding: 2% 15% 2% 0 !important;
+    }
+    footer {
+        text-align: center !important;
+        color: #ababab;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1% 7%;
+        text-align: center;
+        width: 84%;
+    }
+    footer p {
+        text-align: center !important;
+    }
+    .icon {
+        text-align: center !important;
+    }
+    .icon img {
+        padding: 4%;
+    }
 }
