@@ -1,338 +1,345 @@
-html {
-    margin: 0;
-}
-
-body {
-    margin: 0;
-}
-
-
-/* NAVIGATION BAR */
-
-ul li {
-    list-style-type: none;
-    display: inline;
-    color: #ffffff;
-    background-color: ;
-}
-
-ul {
-    padding: 0;
-}
-
-a {
-    padding: 1%;
-}
-
-header>nav>div {
-    text-align: right;
-    width: 100%;
-    margin-top: -2em;
-    color: #fff;
-}
-
-header nav {
-    background: center no-repeat;
-    background-size: 10em;
-    background-color: #281b38;
-    padding: 4% 10%;
-    text-decoration: solid;
-}
-
-#logo {
-    padding-top: 2em;
-}
-
-header>nav>ul>li>a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-#trait {
-    background-color: #ffffff;
-    width: 100%;
-    height: 1px;
-    margin: 0;
-}
-
-
-/* EN TETE */
-
-#promoteNewApp {
-    background: center bottom no-repeat;
-    color: #ffffff;
-    background-color: #281b38;
-    padding: 0 5% 40%;
-    margin: 0;
-    text-align: center;
-}
-
-h1 {
-    padding: 2em 0 0.5em 0;
-    margin: 0;
-}
-
-button {
-    color: #ffffff;
-    background-color: #3d9f96;
-    width: 20em;
-    height: 3em;
-    border-radius: 10px;
-    margin: 0.5em 0 2em 0;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-button>a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.iconSocial {
-    text-align: center;
-    margin-top: -10%;
-    padding: 4% 0%;
-    width: 100%;
-}
-
-.iconSocial img {
-    padding: 0 2%;
-}
-
-
-/* CONTENU1=CHECK OUR NEW APP  */
-
-.grdTitre {
-    font-size: x-large;
-    text-align: left;
-    padding: 3.5% 0;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-    text-align: center;
-    margin: 0;
-    padding: 1.5%;
-}
-
-p {
-    font-size: 90%;
-    color: #ababab;
-}
-
-
-/* Colonne newapp  */
-
-.newApp {
-    display: inline-flex;
-    flex-direction: row;
-    margin: 2% 0% 0;
-    padding: 0 20% 5%;
-}
-
-.newApp>div.colonne>div {
-    padding: 10% 1%;
-}
-
-
-/* BANDE AU MILIEU  */
-
-#bandeMilieu {
-    text-align: center;
-    background-color: #281b38;
-    color: #ffffff;
-    padding: 0 40% 2em 40%;
-}
-
-#bandeMilieu>img {
-    padding: 1em;
-}
-
-#deuxiemeColonne {
-    width: 100%;
-}
-
-
-/* CONTENU 3 = SCREENSHOTS */
-
-.screenshoot {
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0% 20% 4%;
-    width: 30%;
-}
-
-figure {
-    width: 100%;
-    margin: 0;
-    padding: 0 10% 4%;
-}
-
-figcaption {
-    text-align: left;
-    padding: 4%;
-}
-
-.theBest {
-    font-size: x-large;
-    text-align: left;
-    padding: 5.5% 19.5%;
-}
-
-.litmus {
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 5% 27%;
-    text-align: left;
-}
-
-#imageResponsive {
-    width: 200%;
-    margin: -4em;
-    background: no-repeat center;
-}
-
-.respons {
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 4% 25%;
-    text-align: left;
-}
-
-.respons>div {
-    padding: 0 1%;
-}
-
-.contact {
-    display: inline-flex;
-    flex-direction: row;
-    background-color: #f7f7f7;
-    padding: 2.5% 5%;
-}
-
-.contact>div {
-    padding: 0 3%;
-}
-
-.colonne,
-.colonnePlay {
-    background: no-repeat center;
-    align-items: center;
-}
-
-#play {
-    margin: -105% 0 0 0;
-    padding: 0px 0 0 17%;
-}
-
-footer {
-    color: #ababab;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1% 7%;
-    text-align: center;
-    width: 84%;
-}
-
-.copyright {
-    width: 100%;
-}
-
-.icon {
-    width: 100%;
-}
-
-@media screen and (max-width: 630px) {
     html {
-        /* width: 100%; */
+        margin: 0;
     }
-    ul li,
-    #getItNow {
-        display: none;
+    
+    body {
+        margin: 0;
     }
-    .newApp {
-        display: flex;
+    /* NAVIGATION BAR */
+    
+    ul li {
+        list-style-type: none;
+        display: inline;
+        color: #ffffff;
+        background-color: ;
+    }
+    
+    ul {
         padding: 0;
-        flex-direction: column;
+    }
+    
+    a {
+        padding: 1%;
+    }
+    
+    header>nav>div {
+        text-align: right;
+        width: 100%;
+        margin-top: -2em;
+        color: #fff;
+    }
+    
+    header nav {
+        background: center no-repeat;
+        background-size: 10em;
+        background-color: #281b38;
+        padding: 4% 10%;
+        text-decoration: solid;
+    }
+    
+    #logo {
+        padding-top: 2em;
+    }
+    
+    header>nav>ul>li>a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    #trait {
+        background-color: #ffffff;
+        width: 100%;
+        height: 1px;
+        margin: 0;
+    }
+    /* EN TETE */
+    
+    #promoteNewApp {
+        background: center bottom no-repeat;
+        color: #ffffff;
+        background-color: #281b38;
+        padding: 0 5% 40%;
+        margin: 0;
         text-align: center;
     }
-    #play {
-        margin: -30% 0 0 0;
-        padding: 0px 0 0 40%;
+    
+    h1 {
+        padding: 2em 0 0.5em 0;
+        margin: 0;
     }
-    .colonne {
-        text-align: center !important;
+    
+    button {
+        color: #ffffff;
+        background-color: #3d9f96;
+        width: 20em;
+        height: 3em;
+        border-radius: 10px;
+        margin: 2.5% 0 2% 0;
     }
-    .colonnePlay {
-        padding: 0 0 25% 0;
+    
+    button:hover {
+        cursor: pointer;
     }
+    
+    button>a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .iconSocial {
+        text-align: center;
+        margin-top: -10%;
+        padding: 4% 0%;
+        width: 100%;
+    }
+    
+    .iconSocial img {
+        padding: 0 2%;
+    }
+    /* CONTENU1=CHECK OUR NEW APP  */
+    
+    .grdTitre {
+        font-size: x-large;
+        text-align: left;
+        padding: 3.5% 0;
+    }
+    
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        text-align: center;
+        margin: 0;
+        padding: 2.5% 1.5%;
+    }
+    
+    p {
+        font-size: 90%;
+        color: #ababab;
+    }
+    /* Colonne newapp  */
+    
+    .newApp {
+        display: inline-flex;
+        flex-direction: row;
+        margin: 2% 0% 0;
+        padding: 0 20% 5%;
+    }
+    
     .newApp>div.colonne>div {
-        padding: 3% 0%;
+        padding: 10% 1%;
     }
+    /* BANDE AU MILIEU  */
+    
+    #bandeMilieu {
+        text-align: center;
+        background-color: #281b38;
+        color: #ffffff;
+        padding: 0 40% 2em 40%;
+    }
+    
+    #bandeMilieu>img {
+        padding: 1em;
+    }
+    
+    #deuxiemeColonne {
+        width: 100%;
+    }
+    /* CONTENU 3 = SCREENSHOTS */
+    
     .screenshoot {
         display: inline-flex;
-        flex-direction: column;
-    }
-    .litmus {
-        display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
+        padding: 0% 20% 4%;
+        width: 30%;
+    }
+    
+    figure {
+        width: 100%;
+        margin: 0;
+        padding: 0 10% 4%;
+    }
+    
+    figcaption {
+        text-align: left;
+        padding: 4%;
+    }
+    
+    .theBest {
+        font-size: x-large;
+        text-align: left;
+        padding: 5.5% 23.5%;
+    }
+    
+    .litmus {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: row;
         padding: 5% 27%;
         text-align: left;
     }
+    
+    #imageResponsive {
+        width: 200%;
+        margin: -4em;
+        background: no-repeat center;
+    }
+    
     .respons {
-        display: flex;
+        display: inline-flex;
         justify-content: center;
-        flex-direction: column-reverse;
+        flex-direction: row;
         padding: 4% 25%;
-        text-align: center !important;
-    }
-    .grdTitre {
-        text-align: center !important;
-    }
-    .contact {
-        display: flex;
-        flex-direction: column;
-        background-color: #f7f7f7;
-        padding: 2.5% 5%;
         text-align: left;
     }
-    .logoContact img {
-        padding: 0 0% 0 22% !important;
-        margin: 0;
+    
+    .respons>div {
+        padding: 0 1%;
     }
-    .logoContact p {
-        padding: 2% 15% 2% 0 !important;
+    
+    .contact {
+        display: inline-flex;
+        flex-direction: row;
+        background-color: #f7f7f7;
+        padding: 2.5% 5%;
     }
+    
+    .contact>div {
+        padding: 0 3%;
+    }
+    
+    .colonne,
+    .colonnePlay {
+        background: no-repeat center;
+        align-items: center;
+    }
+    
+    #play {
+        margin: -105% 0 0 0;
+        padding: 0px 0 0 17%;
+    }
+    
     footer {
-        text-align: center !important;
         color: #ababab;
-        display: flex;
-        flex-direction: column;
+        display: inline-flex;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
         padding: 1% 7%;
         text-align: center;
         width: 84%;
     }
-    footer p {
-        text-align: center !important;
+    
+    .copyright {
+        width: 100%;
     }
+    
     .icon {
-        text-align: center !important;
+        width: 100%;
     }
-    .icon img {
-        padding: 4%;
+    
+    @media screen and (max-width: 630px) {
+        html {
+            /* width: 100%; */
+        }
+        ul li,
+        #getItNow {
+            display: none;
+        }
+        .newApp {
+            display: flex;
+            padding: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+        #play {
+            margin: -30% 0 0 0;
+            padding: 0%;
+        }
+        .colonne {
+            text-align: center !important;
+        }
+        .colonnePlay {
+            padding: 0 0 25% 0;
+        }
+        .newApp>div.colonne>div {
+            padding: 3.5% 0% 4% 0;
+        }
+        .theBest {
+            font-size: x-large;
+            text-align: left;
+            padding: 5.5% 19.5%;
+            text-align: center !important;
+        }
+        figure {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        figcaption {
+            text-align: center;
+            padding: 4%;
+        }
+        .screenshoot {
+            display: inline-flex;
+            flex-direction: column;
+        }
+        .screenshot3 {
+            display: none;
+        }
+        .litmus {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 5% 27%;
+            text-align: left;
+        }
+        .respons {
+            display: flex;
+            justify-content: center;
+            flex-direction: column-reverse;
+            padding: 4% 25%;
+            text-align: center !important;
+        }
+        .grdTitre {
+            text-align: center !important;
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            background-color: #f7f7f7;
+            padding: 2.5% 5%;
+            text-align: left;
+        }
+        .logoContact img {
+            padding: 0 0% 0 22% !important;
+            margin: 0;
+        }
+        .logoContact p {
+            padding: 2% 15% 2% 0 !important;
+        }
+        footer {
+            text-align: center !important;
+            color: #ababab;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1% 7%;
+            text-align: center;
+            width: 84%;
+        }
+        footer p {
+            text-align: center !important;
+        }
+        .icon {
+            text-align: center !important;
+        }
+        .icon img {
+            width: 8%;
+            padding: 5%;
+        }
     }
-}
