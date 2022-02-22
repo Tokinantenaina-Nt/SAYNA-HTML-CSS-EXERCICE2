@@ -58,10 +58,9 @@ header>nav>ul>li>a {
 
 #promoteNewApp {
     background: center bottom no-repeat;
-    background-image: url(assets/img/map_bg.png);
     color: #ffffff;
     background-color: #281b38;
-    padding: 0 15% 17em;
+    padding: 0 15% 40%;
     margin: 0;
     text-align: center;
 }
@@ -91,14 +90,13 @@ button>a {
 
 .iconSocial {
     text-align: center;
-    margin-top: -3em;
-    background-color: #ffffff;
-    padding: 1em 0 3em 0;
+    margin-top: -10%;
+    padding: 4% 0%;
     width: 100%;
 }
 
 .iconSocial img {
-    padding: 1em;
+    padding: 0 2%;
 }
 
 
@@ -110,14 +108,6 @@ button>a {
     padding: 3.5% 0;
 }
 
-.theBest {
-    font-size: x-large;
-    text-align: left;
-    padding: 3.5% 22%;
-}
-
-
-}
 p,
 h1,
 h2,
@@ -126,107 +116,137 @@ h4,
 h5 {
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 1.5%;
 }
+
 p {
     font-size: 90%;
     color: #ababab;
 }
 
+
 /* Colonne newapp  */
+
 .newApp {
     display: inline-flex;
     flex-direction: row;
-    margin: 2% 0%;
+    margin: 2% 0% 0;
     padding: 0 25% 5%;
 }
+
 .newApp>div.colonne>div {
     padding: 10% 0;
 }
+
 figure {
     width: 100%;
     margin: 0;
     padding: 0 4% 4%;
 }
+
 figcaption {
     text-align: left;
     padding: 4%;
 }
+
+
+/* CONTENU 3 = SCREENSHOTS */
+
+.screenshoot {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0% 26% 4%;
+    width: 48%;
+}
+
+.theBest {
+    font-size: x-large;
+    text-align: left;
+    padding: 5.5% 24.5%;
+}
+
 .litmus {
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
-    padding: 4% 25% 4%;
+    padding: 5% 27%;
     text-align: left;
 }
+
 .respons {
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
-    padding: 4% 25% 4%;
+    padding: 4% 25%;
     text-align: left;
 }
+
 .respons>div {
     padding: 0 1%;
 }
 
+
 /* BANDE AU MILIEU  */
+
 #bandeMilieu {
     text-align: center;
     background-color: #281b38;
     color: #ffffff;
     padding: 0 40% 2em 40%;
 }
+
 #bandeMilieu>img {
     padding: 2em;
 }
 
-/* CONTENU 3 = SCREENSHOTS */
-.screenshoot {
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0% 26% 4%;
-}
 #deuxiemeColonne {
     width: 100%;
 }
+
 #imageResponsive {
     width: 200%;
     margin: -4em;
     background: no-repeat center;
 }
+
 .contact {
     display: inline-flex;
     flex-direction: row;
     background-color: #f7f7f7;
-    padding: 0 12%;
+    padding: 3% 20%;
     margin: 0%;
 }
+
 .contact>div {
     padding: 0 3%;
 }
+
 .colonne {
     background: no-repeat center;
     align-items: center;
 }
+
 #play {
     margin: -105% 0 0 0;
     padding: 0px 0 0 17%;
 }
+
 footer {
     color: #ababab;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 0% 15%;
+    padding: 1% 23%;
     text-align: center;
-    width: 66%;
+    width: 54%;
 }
+
 .copyright {
     width: 100%;
 }
+
 .icon {
     width: 100%;
 }
