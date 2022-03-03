@@ -75,6 +75,7 @@
         height: 3em;
         border-radius: 10px;
         margin: 2.5% 0 2% 0;
+        border: none;
     }
     
     button:hover {
@@ -100,7 +101,7 @@
     
     .grdTitre {
         font-size: x-large;
-        text-align: left;
+        /* text-align: left; */
         padding: 3.5% 0;
     }
     
@@ -199,6 +200,7 @@
     .respons>div {
         padding: 0 1%;
     }
+    /* CONTACT  */
     
     .contact {
         display: inline-flex;
